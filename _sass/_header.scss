@@ -171,6 +171,7 @@
                     img{
                         transform: scale(1.1);
                         filter: var(--c-menuItemsFilterHover);
+                        // filter: var(--c-menuIconsFilterHover);
 
                         @include for-size('tablet'){
                             transform: scale(1);
@@ -226,8 +227,7 @@
                             display: none;
                         }
                         
-                        img{
-    
+                        img{ 
                             height: 5rem;
                         }
         

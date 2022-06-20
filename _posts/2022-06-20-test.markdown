@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Test!"
+author: 또치
+date:   2022-06-12 23:06:37 +0900
+category: [record]
+---
+# TEST
+<!-- categories: programming -->

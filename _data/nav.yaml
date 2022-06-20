@@ -1,0 +1,38 @@
+- title: AI
+  url: category/ai.html
+  icon: assets/img/icons/artificial-intelligence-ai.svg
+  hue: "var(--c-themeHueRed)"
+- title: Programming #Menu item title.
+  url: category/programming.html #Menu item url.
+  icon: assets/img/icons/software-engineering.svg #Menu item icon.
+  # hue: "var(--c-themeHueRed)" #Menu item hue - see note [1].
+  hue: "var(--c-themeHueOrange)" #Menu item hue - see note [1].
+  subnav: #Subnav. See note [2].
+      - title: Python #Submenu item title.
+        url: category/python.html #Submenu item url.
+        hue: "var(--c-themeHueOrange)" #Submenu item hue.
+        subnav: #Another subnav
+            - title: Numpy&Pandas
+              url: libs.html
+              hue: "var(--c-themeHueOrange)"
+- title: Database #Menu item title.
+  url: category/database.html #Menu item url.
+  icon: assets/img/icons/data-management.svg #Menu item icon.
+  hue: "var(--c-themeHueBlue)" #Menu item hue - see note [1].
+  subnav: #Subnav. See note [2].
+      - title: PostgreSQL #Submenu item title.
+        url: category/postgres.html #Submenu item url.
+        hue: "var(--c-themeHueBlue)" #Submenu item hue.
+        subnav: #Another subnav
+            - title: Libraries
+              url: libs.html
+              hue: "var(--c-themeHueBlue)"
+- title: record #Menu item title.
+  url: category/record.html #Menu item url.
+  icon: assets/img/icons/writing.svg #Menu item icon.
+  hue: "var(--c-themeHueGreen)" #Menu item hue - see note [1].
+  subnav: #Subnav. See note [2].
+      - title: memo #Submenu item title.
+        url: category/memo.html #Submenu item url.
+        hue: "var(--c-themeHueGreen)" #Submenu item hue.
+        subnav: #Another subnav
