@@ -29,6 +29,9 @@
                 filter: var(--c-headerImageFilter);
                 height: 2rem;
             }
+						// &__img:hover{
+							// filter : var(--c-themeHueRed);
+						// }
         }
     }
 
@@ -86,16 +89,18 @@
             margin: 0;
             list-style: none;
 
+
             @include for-size('tablet'){
                 flex-direction: column;
             }
 
-            .item{
-
+            .item{	
+								padding: 0 1rem;
                 position: relative; 
 
                 @include flexbox;
                 cursor: pointer;
+
 
                 .item-controls{
 
@@ -141,16 +146,18 @@
                 }
 
                 >.list{
-                    
                     max-height: 0;
-                    width: 250px;
+                    // width: 250px;
+                    width: 200px;
                     overflow: hidden;
                     box-shadow: inset 0px 0px 14px -4px var(--c-menuShadow);
                     transition: $t-smooth;
                     flex-direction: column;
+										padding: 0 0;
 
                     .item{
                         width: 100%;
+												padding: 0;
                     }
 
                     @include for-size('tablet-up'){
@@ -171,7 +178,6 @@
                     img{
                         transform: scale(1.1);
                         filter: var(--c-menuItemsFilterHover);
-                        // filter: var(--c-menuIconsFilterHover);
 
                         @include for-size('tablet'){
                             transform: scale(1);
@@ -229,6 +235,7 @@
                         
                         img{ 
                             height: 5rem;
+														margin-top: 0.8rem;
                         }
         
                         p{

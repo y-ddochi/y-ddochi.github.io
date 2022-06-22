@@ -6,8 +6,9 @@
 .post{
 
     justify-self: center;
-    margin: 0 2rem;
+    margin: 2rem 2rem;
     max-width: 1000px;
+		width: 50rem;
     @include flexbox{
         flex-direction: column;
         justify-content: flex-start;
@@ -90,6 +91,7 @@
     &__content{
 
         color: var(--c-postText);
+				margin: 1rem 0;	
         h1{
             font-size: 1.8rem;
         }
