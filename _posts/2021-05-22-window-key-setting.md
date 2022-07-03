@@ -17,7 +17,6 @@ nvim을 사용하다보면 Ctrl키를 사용할 때가 많아 Ctrl과  Capslock�
 
 1.&nbsp;레지스트리 편집기 실행 ( window+r &nbsp; -> &nbsp; regedit 입력 )
 
-<!-- 2.&nbsp;HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Keyboard Layout 으로 이동 -->
 2.&nbsp;HKEY LOCAL MACHINE/SYSTEM/CurrentControlSet/Control/Keyboard Layout 으로 이동
 
 3.&nbsp;새로 만들기 &nbsp; -> &nbsp; 이진값(binary value) 생성
