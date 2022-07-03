@@ -6,9 +6,8 @@
 .post{
 
     justify-self: center;
-    margin: 2rem 2rem;
+    margin: 1rem 2rem;
     max-width: 1000px;
-		width: 50rem;
     @include flexbox{
         flex-direction: column;
         justify-content: flex-start;
