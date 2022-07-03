@@ -17,7 +17,8 @@ nvim을 사용하다보면 Ctrl키를 사용할 때가 많아 Ctrl과  Capslock�
 
 1.&nbsp;레지스트리 편집기 실행 ( window+r &nbsp; -> &nbsp; regedit 입력 )
 
-2.&nbsp;HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Keyboard Layout 으로 이동
+<!-- 2.&nbsp;HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Keyboard Layout 으로 이동 -->
+2.&nbsp;HKEY LOCAL MACHINE/SYSTEM/CurrentControlSet/Control/Keyboard Layout 으로 이동
 
 3.&nbsp;새로 만들기 &nbsp; -> &nbsp; 이진값(binary value) 생성
 
@@ -25,8 +26,8 @@ nvim을 사용하다보면 Ctrl키를 사용할 때가 많아 Ctrl과  Capslock�
 > 00 00 00 00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; => &nbsp; &nbsp;  Header   
 00 00 00 00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; => &nbsp; &nbsp;  Version   
 00 03 00 00	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; => &nbsp; &nbsp;  수장할 키 개수(+1)  
-1d 00 3a 00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; => &nbsp; &nbsp;  1d(CapsLock) 3a(Left Ctrl)  
-3a 00 1d 00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; => &nbsp; &nbsp;  CapsLock 안 쓸줄 알고 안했다가 뒤늦게 추가해줬다  
+1d 00 3a 00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; => &nbsp; &nbsp;  1d(CapsLock) 3a(Left Ctrl)  
+3a 00 1d 00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; => &nbsp; &nbsp;  CapsLock 안 쓸줄 알고 안했다가 뒤늦게 추가해줬다  
 00 00 00 00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=> &nbsp; &nbsp; 종료
 
 5.&nbsp; 재부팅 
