@@ -3,6 +3,13 @@
   icon: assets/img/icons/artificial-intelligence-ai.svg
   hue: "var(--c-themeHueRed)"
   subnav: #Subnav. See note [2].
+      - title: Data #Submenu item title.
+        url: category/data.html #Submenu item url.
+        hue: "var(--c-themeHueOrange)" #Submenu item hue.
+        subnav: #Another subnav
+            - title: Pandas & Numpy
+              url: libs.html
+              hue: "var(--c-themeHueBlue)"
       - title: NLP #Submenu item title.
         url: category/nlp.html #Submenu item url.
         hue: "var(--c-themeHueOrange)" #Submenu item hue.
@@ -16,7 +23,11 @@
         url: category/python.html #Submenu item url.
         hue: "var(--c-themeHueOrange)" #Submenu item hue.
         subnav: #Another subnav
-            - title: Numpy&Pandas
+      - title: Javascript #Submenu item title.
+        url: category/python.html #Submenu item url.
+        hue: "var(--c-themeHueOrange)" #Submenu item hue.
+        subnav: #Another subnav
+            - title: Nond.js
               url: libs.html
               hue: "var(--c-themeHueBlue)"
 - title: Database #Menu item title.
